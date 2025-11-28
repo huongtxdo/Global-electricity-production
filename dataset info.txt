@@ -1,0 +1,49 @@
+Link: https://www.kaggle.com/datasets/sazidthe1/global-electricity-production
+
+CONTEXT
+This dataset offers a comprehensive overview of global electricity production data spanning 48 countries from 2010 to 2023. 
+It provides valuable insights into the balance, production, and values of electricity generation across different regions over the specified timeframe.
+With its focus on electricity production, this dataset is instrumental for energy analysts, policymakers, and researchers aiming to understand global energy trends, identify patterns, and develop strategies for sustainable energy production and consumption.
+
+CONTENT
+Country name: Name of the country
+Date: Date of the production
+Parameter: balance of electricity production
+Product: Type of electricity product
+Value: Value of electricity production
+Unit: Unit of measurement for electricity production (GWh)
+
+DATASET STRUCTURE
+The dataset encompasses data from 48 countries for the years 2010 to 2023
+
+** SCHEMA **
+Columns: country_name, date, parameter, product, value, unit
+country_name: 48 distinct countries
+date: 1/1/2010 to 9/1/2023 (m/d/yyyy)
+Parameters: 
+    - Net Electricity Production, 
+    - Used for pumped storage, 
+    - Distribution Losses, 
+    - Final Consumption (Calculated), 
+    - Total Imports, 
+    - Total Exports, 
+    - Remarks
+product:
+    - Electricity; 
+    - Total Combustible Fuels;  
+    - Coal, Peat and Manufactured Gases;  
+    - Oil and Petroleum Products;  
+    - Natural Gas;  
+    - Other Combustible Non-Renewable;  
+    - Combustible Renewables;  
+    - Hydro;  
+    - Wind;  
+    - Solar;  
+    - Total Renewables (Hydro, Geo, Solar, Wind, Other);  
+    - Geothermal; 
+    - Nuclear; 
+    - Not Specified;  
+    - Data is estimated for this month; 
+    - Other Renewables
+value,
+unit: GWh
