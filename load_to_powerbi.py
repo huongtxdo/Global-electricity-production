@@ -2,8 +2,11 @@
 
 import sqlite3
 import pandas as pd
+from pathlib import Path
 
-conn = sqlite3.connect(r"C:\Users\huong\Desktop\projects\DA\electricity_production_dataset\electricity.db")
+project_root = Path(__file__).resolve().parent.parent
+db_path = project_root / "electricity.db"
+conn = sqlite3.connect(project_root)
 
 def load_all_views(conn):
     views = {}
